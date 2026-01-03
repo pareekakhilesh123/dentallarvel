@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN docker-php-ext-install zip pdo pdo_mysql
 
+RUN mkdir -p database && touch database/database.sqlite
+
+
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 COPY . .

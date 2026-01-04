@@ -14,7 +14,7 @@
                                     <div class="spacer-single sm-hide"></div>
                                     <div class="subtitle">Family Dental Care</div>
                                     <h1>Elevating Smiles with Expert Care and a Gentle Touch</h1>
-                                    <a class="btn-main btn-line fx-slide" href="#"><span>Book Appointment</span></a>
+                                    <a class="btn-main btn-line fx-slide" href="{{ route('booking') }}"><span>Book Appointment</span></a>
                                 </div>
 
                                 <div class="d-lg-flex align-items-center">
@@ -146,7 +146,7 @@
                                 <li>Flexible Appointment Scheduling</li>
                               </ul>
 
-                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="{{ route('booking') }}"><span>Book Appointment</span></a>
                           </div>
                     </div>
                   </div>

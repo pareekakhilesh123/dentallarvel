@@ -11,7 +11,7 @@
                             <h1 class="wow fadeInUp">Gallery</h1>
                             <div class="border-bottom my-3"></div>
                             <ul class="crumb wow fadeInDown">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{ route('home') }}">Home</a></li>
                                 <li class="active">Gallery</li>
                             </ul>
                         </div>

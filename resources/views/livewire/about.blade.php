@@ -11,7 +11,7 @@
                             <h1 class="wow fadeInUp">About Us</h1>
                             <div class="border-bottom my-3"></div>
                             <ul class="crumb wow fadeInDown">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{ route('home') }}">Home</a></li>
                                 <li class="active">About Us</li>
                             </ul>
                         </div>
@@ -60,7 +60,7 @@
                                 <li>Flexible Appointment Scheduling</li>
                               </ul>
 
-                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="contact.html"><span>Book Appointment</span></a>
+                              <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="{{ route('contact') }}"><span>Book Appointment</span></a>
                           </div>
                     </div>
                   </div>

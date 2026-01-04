@@ -8,7 +8,7 @@
                     <h1 class="wow fadeInUp">Book Appointment</h1>
                     <div class="border-bottom my-3"></div>
                     <ul class="crumb wow fadeInDown">
-                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
                         <li class="active">Book Appointment</li>
                     </ul>
                 </div>

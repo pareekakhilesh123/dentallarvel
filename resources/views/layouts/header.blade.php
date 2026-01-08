@@ -142,7 +142,7 @@
                         <div class="widget">
                             <h5>Contact Us</h5>
                             <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color"></i>Clinic
-                                Ajemr</div>
+                                Ajmer</div>
                             100 S Main St
 
                             <div class="spacer-20"></div>
